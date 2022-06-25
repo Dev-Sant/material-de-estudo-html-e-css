@@ -1,0 +1,38 @@
+1. Resumo da história do HTML.
+	
+	O HTML começou a ser criado em 1980 por Tim Berners-Lee, e em 1991 foi apresentado o HTML 1 contendo os 18 elementos que existiam até então.
+	O HTML foi criado devido a uma necessidade de compartilhamento de documentos.
+
+** HTML 1 - 1991
+** HTML 2 - 1995
+** HTML 3 - 1997
+** HTML 4 - 1997
+** HTML 5 - 2014
+
+	Elemento HTML = O elemento é a base de um HTML, ou seja, tudo dentro do HTML é um elemento (EX: <h1 class="titulo">Título</h1>).
+
+** Chave de abertura = Diz qual o tipo de elemento, e o que será feito na tela (EX: <h1>);
+** Atributo = Pode escolher funcionalidade, aparência ou dizer alguma coisa ao navegador (EX: class="titulo");
+** Conteúdo = Informações que compõe a página (EX: Título);
+** Chave de fechamento = Encerra a chave de abertura de um elemento (EX: </h1>).
+
+2. Estrutura básica do HTML.
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta>
+   <title></title>
+ </head>
+ <body>
+ </body>
+</html>
+
+** <!DOCTYPE html> = Não é um documento HTML, ele apeas diz ao navegador oque estamos escrevendo;
+** <html> = É o elemento de ínicio do documento, ou seja, tudo que pertencer a este documento, estará dentro deste elemento;
+** <head> = Dentro deste elemento, teremos meta informações, ou seja, informações que um navegador ou um buscador de internet necessitam, toda a informação que nós usuários não podemos ver.
+** <meta> = Esta tag pode ser usada para diversas coisas, e como exemplo temos o "charset UTF-8", utilizado para o navegador entender os tipos de caracteres utilizados.
+** <title> = Responsável pelo título na aba do navegador.
+** <body> = É dentro deste elemento que encontramos todo o conteúdo da página, que os usuários podem ter acesso.
+
+3. 
